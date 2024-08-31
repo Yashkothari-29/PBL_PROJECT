@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Provider Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Service Finder</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="registration-form">
+        <h1>Service Provider Registration</h1>
+        <form action="submit_registration.php" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="profile-picture">Profile Picture:</label>
+                <input type="file" id="profile-picture" name="profile-picture" accept="image/*">
+            </div>
+            
+            <div class="form-group">
+                <label for="services">Services Offered:</label>
+                <textarea id="services" name="services" placeholder="List the services you offer" required></textarea>
+            </div>
+            
+            <div class="form-group">
+                <label for="experience">Years of Experience:</label>
+                <input type="number" id="experience" name="experience" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="service-area">Service Area:</label>
+                <input type="text" id="service-area" name="service-area" placeholder="e.g., New York, San Francisco" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="pricing">Service Charges:</label>
+                <input type="text" id="pricing" name="pricing" placeholder="e.g., $50/hour" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="documents">Upload Documents (ID Proof, Certifications):</label>
+                <input type="file" id="documents" name="documents" accept="application/pdf,image/*" multiple required>
+            </div>
+            
+            <div class="form-group">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Service Finder. All rights reserved.</p>
+        <nav class="footer-links">
+            <a href="privacy.html">Privacy Policy</a> |
+            <a href="terms.html">Terms & Conditions</a> |
+            <a href="support.html">Support</a>
+        </nav>
+    </footer>
+</body>
+</html>

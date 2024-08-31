@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .search-bar {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+header .search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.hero .cta-button {
+    background-color: #f39c12;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.services-overview {
+    padding: 60px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.services-overview h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.service-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.service-item h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.service-item p {
+    font-size: 16px;
+}
+
+.how-it-works {
+    padding: 60px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.how-it-works h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+}
+
+.step {
+    width: 30%;
+}
+
+.step img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.step h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.step p {
+    font-size: 16px;
+}
+
+.testimonials {
+    padding: 60px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.cta {
+    padding: 60px 20px;
+    background-color: #f39c12;
+    color: white;
+    text-align: center;
+}
+
+.cta h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.cta .cta-button {
+    background-color: white;
+    color: #f39c12;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+footer {
+    padding: 40px 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.social-media img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
